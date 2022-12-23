@@ -2,7 +2,11 @@
 const Welcome = () => {
 
     return (
-        <div className='main'>main</div>
+        <div className='main container'>
+            <ul>{Array.from(Array(100), (e, i) => {
+                return <li key={i}>{i}</li>
+            })}</ul>
+        </div>
     )
 }
 

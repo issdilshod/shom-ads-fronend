@@ -1,0 +1,16 @@
+{
+    "headerLayout": {
+        "logoAlt": "Логотип",
+        "searchPlaceholder": "Поиск сервисов...",
+        "menu": {
+            "service": "Сервисы",
+            "aboutUs": "O нас",
+            "terms": "Условия"
+        },
+        "signUpButton": "Вход"
+    },
+    "welcomePage": {
+        "title": "Добро пожаловать"
+
+    }
+}

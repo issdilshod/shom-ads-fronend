@@ -1,0 +1,20 @@
+.light{
+    background-color: #fff;
+    color: #002538;
+
+    .header{
+        background: #ffffffb3;
+    }
+
+    .header-in{
+        border-bottom: 0.5px solid #e0e0e0;
+    }
+
+    .header-theme-switch{
+        background-color: #f0faff;
+
+        &::before{
+            background: url("../../images/lightmode-icon.svg") center center no-repeat rgb(0, 136, 204);
+        }
+    }
+}

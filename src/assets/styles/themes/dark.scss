@@ -1,0 +1,21 @@
+.dark{
+    background-color: #0f0f0f;
+    color: #ebebeb;
+
+    .header{
+        background: #0e0f0fb3;
+    }
+
+    .header-in{
+        border-bottom: 0.5px solid #303030;
+    }
+
+    .header-theme-switch{
+        background-color: #0c2d3d;
+
+        &::before{
+            transform: translateX(28px);
+            background: url("../../images/darkmode-icon.svg") center center no-repeat rgb(0, 136, 204);
+        }
+    }
+}

@@ -1,10 +1,15 @@
 import { useEffect, useState } from "react";
+
+import { useTranslation } from 'react-i18next';
+
 import * as Consts from '../../services/constants/header';
 import ruFlag from '../../assets/images/russia.svg';
 import tjFlag from '../../assets/images/tajikistan.svg';
 import logo from '../../assets/images/logo.svg';
 
 const Header = () => {
+
+    const { t, i18n } = useTranslation();
 
     const [theme, setTheme] = useState(Consts.defaultTheme);
     const [language, setLanguage] = useState(Consts.defaultLanguage);
@@ -15,6 +20,7 @@ const Header = () => {
 
     useEffect(() => {
         document.body.lang = language;
+        i18n.changeLanguage(language);
     }, [language]);
 
     const toggleTheme = () => {
@@ -41,9 +47,9 @@ const Header = () => {
                         <div className='header-logo mb-auto mt-auto'>
                             <img 
                                 src={logo}
-                                alt='logo'
+                                alt={t('headerLayout.logoAlt')}
                             />
-                            <span className='ml-2'>Hom ads.</span>
+                            <span className='ml-2'>SHOM ads</span>
                         </div>
                         <div className='header-search ml-2'>
 
@@ -60,6 +66,9 @@ const Header = () => {
                                     height={20}
                                 />
                             </span>
+                        </div>
+                        <div className='header-sign-up ml-2 mb-auto mt-auto'>
+
                         </div>
                     </div>
                 </div>
