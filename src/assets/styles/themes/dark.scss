@@ -18,4 +18,39 @@
             background: url("../../images/darkmode-icon.svg") center center no-repeat rgb(0, 136, 204);
         }
     }
+
+    .basic-info{
+        .last-news{
+            background-color: #17191a;
+
+            .last-news-body{
+                
+                .last-news-item{
+                    border-bottom: 0.5px solid #ffffff1a;
+                }
+            }
+        }
+    }
+
+    .about-us{
+        .about-us-item{
+            border: 0.5px solid #303030;
+        }
+    }
+
+    .partners{
+        background-color: #17191a;
+    }
+
+    .footer{
+        .footer-top{
+            .divide{
+                background-color: #303030;
+            }
+        }
+
+        .footer-bottom{
+            border-top: 1px solid #303030;
+        }
+    }
 }

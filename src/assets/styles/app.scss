@@ -5,12 +5,51 @@
 }
 
 body{
+    min-width: 400px;
+}
 
+a{
+    text-decoration: none;
 }
 
 #root{
     height: 100%;
     width: 100%;
+}
+
+/*
+    BUTTONS
+*/
+/*
+    h-btn `href button`
+*/
+.h-btn{
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    transition: .4s;
+
+    i{
+        margin-right: 5px;
+    }
+
+    span{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+.h-btn:hover{
+    color: #fff;
+}
+
+.h-btn-primary{
+    background-color: #0088cc;
+    color: #fff;
+}
+
+.h-btn-primary:hover{
+    background-color: #006699;
 }
 
 /*
@@ -68,4 +107,154 @@ body{
 
 .header-language-switch{
     cursor: pointer;
+}
+
+/*
+    main
+*/
+.main{
+}
+
+/*
+    basic-info
+*/
+.basic-info{
+    padding: 40px 0px;
+
+    .banner{
+        border-radius: 20px;
+        border: 1px solid #0000001a;
+        overflow: hidden;
+    }
+    
+    .last-news{
+        border-radius: 20px;
+        padding: 20px;
+    
+        .last-news-head{
+            height: 58px;
+            font-weight: 500;
+    
+            div{
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+    
+            a, a:hover{
+                color: #26a9eb;
+            }
+        }
+    
+        .last-news-body{
+    
+            .last-news-item{
+                padding-bottom: 5px;
+    
+                .last-news-item-title{
+                    font-weight: 500;
+                    padding-bottom: 5px;
+                }
+    
+                .last-news-item-info{
+                    color: #9a9a9a;
+    
+                    img{
+                        width: 20px;
+                        height: 20px;
+                        background-color: #fff;
+                        border-radius: 50%;
+                    }
+                }
+    
+            }
+        }
+    }
+}
+
+/*
+    about-us
+*/
+.about-us{
+    padding: 40px 0px;
+    
+    .about-us-item{
+        padding: 20px;
+        min-height: 200px;
+        cursor: pointer;
+        border-radius: 20px;
+
+        &:hover .icon-info{
+            font-size: 3.8em;
+            transition: .2s;
+        }
+
+        .about-info-title{
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+
+        .icon-info{
+            font-weight: 500;
+            font-size: 3em;
+            transition: .2s;
+        }
+    }
+}
+
+/*
+    partners
+*/
+.partners{
+    padding: 40px 0px;
+}
+
+/*
+    footer
+*/
+.footer{
+
+    .footer-top{
+        margin: 100px 0px;
+        justify-content: center;
+
+        .download{
+            padding: 20px 0px;
+
+            .download-title{
+                font-weight: 700;
+                padding-bottom: 22px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .divide{
+            height: 56px;
+            width: 1px;
+            display: inline-block;
+            margin: 0 40px;
+        }
+    }
+
+    .footer-bottom{
+        padding: 40px 0px;
+
+        .footer-links{
+            .footer-links-items{
+                .footer-links-item{
+                    p{
+                        font-weight: 700;
+                        font-size: 1.1em;
+                        margin-bottom: 20px;
+                    }
+
+                    a{
+                        display: inline-block;
+                        width: 100%;
+                        font-weight: 500;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
 }

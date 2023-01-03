@@ -17,4 +17,40 @@
             background: url("../../images/lightmode-icon.svg") center center no-repeat rgb(0, 136, 204);
         }
     }
+
+    .basic-info{
+        .last-news{
+            background-color: #f9f9f9;
+
+            .last-news-body{
+                
+                .last-news-item{
+                    border-bottom: 0.5px solid #0000001a;
+                }
+            }
+        }
+
+    }
+
+    .about-us{
+        .about-us-item{
+            border: 0.5px solid #e0e0e0;
+        }
+    }
+
+    .partners{
+        background-color: #f9f9f9;
+    }
+
+    .footer{
+        .footer-top{
+            .divide{
+                background-color: #e0e0e0;
+            }
+        }
+
+        .footer-bottom{
+            border-top: 1px solid #e0e0e0;
+        }
+    }
 }

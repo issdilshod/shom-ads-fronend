@@ -1,4 +1,8 @@
 {
+    "global": {
+        "download": "Скачать"
+    },
+
     "headerLayout": {
         "logoAlt": "Логотип",
         "searchPlaceholder": "Поиск сервисов...",
@@ -9,8 +13,45 @@
         },
         "signUpButton": "Вход"
     },
-    "welcomePage": {
-        "title": "Добро пожаловать"
 
+
+    "welcomePage": {
+        "title": "Добро пожаловать",
+        "bannerTitle": "Мы скоро откроемся",
+        "bannerDescription": "Осталось совсем немного и наш сервис заработает",
+        "newsTitle": "Новости",
+        "newsAllTitle": "Все новости",
+
+        "aboutUs": {
+            "createAd": {
+                "title": "Создать рекламу",
+                "description": ""
+            },
+            "payAd": {
+                "title": "Оплатить реламу",
+                "description": ""
+            },
+            "readyAd": {
+                "title": "Готово! Реклама опубликована.",
+                "description": ""
+            }
+        }
+
+    },
+
+
+    "footerLayout": {
+        "download": {
+            "playMarket": "Мы в Play Market!",
+            "appStore": "Мы в App Store!"
+        },
+        "copyright": "Все права защищены.",
+        "links": {
+            "legal": {
+                "title": "Правила",
+                "terms": "Условия",
+                "policy": "Конфиденциальность"
+            }
+        }
     }
 }
